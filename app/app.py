@@ -101,7 +101,7 @@ st.markdown("<h1>🏠 House Price Predictor</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>AI-powered insights to help you estimate your home's value instantly.</p>", unsafe_allow_html=True)
 
 # ---- Load Model ----
-model = joblib.load("../model.pkl")
+model = joblib.load("./model.pkl")
 
 # ---- Input Form ----
 with st.form("predict"):
